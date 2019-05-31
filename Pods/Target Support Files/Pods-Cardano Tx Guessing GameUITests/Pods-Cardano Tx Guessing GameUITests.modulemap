@@ -1,0 +1,6 @@
+framework module Pods_Cardano_Tx_Guessing_GameUITests {
+  umbrella header "Pods-Cardano Tx Guessing GameUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

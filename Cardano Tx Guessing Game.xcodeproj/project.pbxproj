@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		208BBD7D3A0584AE2858C9E1 /* Pods_Cardano_Tx_Guessing_GameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E6967E5A9B6B495DCDFD8C /* Pods_Cardano_Tx_Guessing_GameUITests.framework */; };
+		A2C0FC2CD7DED07CE1803744 /* Pods_Cardano_Tx_Guessing_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA860C92079171EA38CC8AB /* Pods_Cardano_Tx_Guessing_Game.framework */; };
+		E1130BA3229DB20000BB66AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1130BA2229DB20000BB66AD /* AppDelegate.swift */; };
+		E1130BA5229DB20000BB66AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1130BA4229DB20000BB66AD /* ViewController.swift */; };
+		E1130BA8229DB20000BB66AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1130BA6229DB20000BB66AD /* Main.storyboard */; };
+		E1130BAA229DB20100BB66AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1130BA9229DB20100BB66AD /* Assets.xcassets */; };
+		E1130BAD229DB20100BB66AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1130BAB229DB20100BB66AD /* LaunchScreen.storyboard */; };
+		E1130BB8229DB20100BB66AD /* Cardano_Tx_Guessing_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1130BB7229DB20100BB66AD /* Cardano_Tx_Guessing_GameTests.swift */; };
+		E1130BC3229DB20100BB66AD /* Cardano_Tx_Guessing_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1130BC2229DB20100BB66AD /* Cardano_Tx_Guessing_GameUITests.swift */; };
+		E144E3C722A041A100C36D19 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E144E3C622A041A100C36D19 /* AboutViewController.swift */; };
+		E1A300EF7ADC6D4E03683B76 /* Pods_Cardano_Tx_Guessing_GameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41581327823C1E4779631FC /* Pods_Cardano_Tx_Guessing_GameTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1130BB4229DB20100BB66AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1130B97229DB20000BB66AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1130B9E229DB20000BB66AD;
+			remoteInfo = "Cardano Tx Guessing Game";
+		};
+		E1130BBF229DB20100BB66AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1130B97229DB20000BB66AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1130B9E229DB20000BB66AD;
+			remoteInfo = "Cardano Tx Guessing Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0707A051996B3AB778B0DF40 /* Pods-Cardano Tx Guessing GameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardano Tx Guessing GameTests.release.xcconfig"; path = "Target Support Files/Pods-Cardano Tx Guessing GameTests/Pods-Cardano Tx Guessing GameTests.release.xcconfig"; sourceTree = "<group>"; };
+		16E6967E5A9B6B495DCDFD8C /* Pods_Cardano_Tx_Guessing_GameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cardano_Tx_Guessing_GameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBDC13450E5CCF9FE9702DE /* Pods-Cardano Tx Guessing GameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardano Tx Guessing GameTests.debug.xcconfig"; path = "Target Support Files/Pods-Cardano Tx Guessing GameTests/Pods-Cardano Tx Guessing GameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37640DFC6966729491A41D70 /* Pods-Cardano Tx Guessing GameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardano Tx Guessing GameUITests.release.xcconfig"; path = "Target Support Files/Pods-Cardano Tx Guessing GameUITests/Pods-Cardano Tx Guessing GameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		52CC8E30AD1EF20778F00F9B /* Pods-Cardano Tx Guessing GameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardano Tx Guessing GameUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cardano Tx Guessing GameUITests/Pods-Cardano Tx Guessing GameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92021D0E786A94779BC9A541 /* Pods-Cardano Tx Guessing Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardano Tx Guessing Game.release.xcconfig"; path = "Target Support Files/Pods-Cardano Tx Guessing Game/Pods-Cardano Tx Guessing Game.release.xcconfig"; sourceTree = "<group>"; };
+		9DA860C92079171EA38CC8AB /* Pods_Cardano_Tx_Guessing_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cardano_Tx_Guessing_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41581327823C1E4779631FC /* Pods_Cardano_Tx_Guessing_GameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cardano_Tx_Guessing_GameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB26699BB26984028461C83 /* Pods-Cardano Tx Guessing Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardano Tx Guessing Game.debug.xcconfig"; path = "Target Support Files/Pods-Cardano Tx Guessing Game/Pods-Cardano Tx Guessing Game.debug.xcconfig"; sourceTree = "<group>"; };
+		E1130B9F229DB20000BB66AD /* Cardano Tx Guessing Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cardano Tx Guessing Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1130BA2229DB20000BB66AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1130BA4229DB20000BB66AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1130BA7229DB20000BB66AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1130BA9229DB20100BB66AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1130BAC229DB20100BB66AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1130BAE229DB20100BB66AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1130BB3229DB20100BB66AD /* Cardano Tx Guessing GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cardano Tx Guessing GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1130BB7229DB20100BB66AD /* Cardano_Tx_Guessing_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardano_Tx_Guessing_GameTests.swift; sourceTree = "<group>"; };
+		E1130BB9229DB20100BB66AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1130BBE229DB20100BB66AD /* Cardano Tx Guessing GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cardano Tx Guessing GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1130BC2229DB20100BB66AD /* Cardano_Tx_Guessing_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardano_Tx_Guessing_GameUITests.swift; sourceTree = "<group>"; };
+		E1130BC4229DB20100BB66AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E144E3C622A041A100C36D19 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1130B9C229DB20000BB66AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C0FC2CD7DED07CE1803744 /* Pods_Cardano_Tx_Guessing_Game.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1130BB0229DB20100BB66AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A300EF7ADC6D4E03683B76 /* Pods_Cardano_Tx_Guessing_GameTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1130BBB229DB20100BB66AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208BBD7D3A0584AE2858C9E1 /* Pods_Cardano_Tx_Guessing_GameUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6923EC98718214C9DFEF8680 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA860C92079171EA38CC8AB /* Pods_Cardano_Tx_Guessing_Game.framework */,
+				C41581327823C1E4779631FC /* Pods_Cardano_Tx_Guessing_GameTests.framework */,
+				16E6967E5A9B6B495DCDFD8C /* Pods_Cardano_Tx_Guessing_GameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC03E6BBD815340FCE559592 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAB26699BB26984028461C83 /* Pods-Cardano Tx Guessing Game.debug.xcconfig */,
+				92021D0E786A94779BC9A541 /* Pods-Cardano Tx Guessing Game.release.xcconfig */,
+				2FBDC13450E5CCF9FE9702DE /* Pods-Cardano Tx Guessing GameTests.debug.xcconfig */,
+				0707A051996B3AB778B0DF40 /* Pods-Cardano Tx Guessing GameTests.release.xcconfig */,
+				52CC8E30AD1EF20778F00F9B /* Pods-Cardano Tx Guessing GameUITests.debug.xcconfig */,
+				37640DFC6966729491A41D70 /* Pods-Cardano Tx Guessing GameUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E1130B96229DB20000BB66AD = {
+			isa = PBXGroup;
+			children = (
+				E1130BA1229DB20000BB66AD /* Cardano Tx Guessing Game */,
+				E1130BB6229DB20100BB66AD /* Cardano Tx Guessing GameTests */,
+				E1130BC1229DB20100BB66AD /* Cardano Tx Guessing GameUITests */,
+				E1130BA0229DB20000BB66AD /* Products */,
+				CC03E6BBD815340FCE559592 /* Pods */,
+				6923EC98718214C9DFEF8680 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1130BA0229DB20000BB66AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1130B9F229DB20000BB66AD /* Cardano Tx Guessing Game.app */,
+				E1130BB3229DB20100BB66AD /* Cardano Tx Guessing GameTests.xctest */,
+				E1130BBE229DB20100BB66AD /* Cardano Tx Guessing GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1130BA1229DB20000BB66AD /* Cardano Tx Guessing Game */ = {
+			isa = PBXGroup;
+			children = (
+				E144E3C622A041A100C36D19 /* AboutViewController.swift */,
+				E1130BA2229DB20000BB66AD /* AppDelegate.swift */,
+				E1130BA4229DB20000BB66AD /* ViewController.swift */,
+				E1130BA6229DB20000BB66AD /* Main.storyboard */,
+				E1130BA9229DB20100BB66AD /* Assets.xcassets */,
+				E1130BAB229DB20100BB66AD /* LaunchScreen.storyboard */,
+				E1130BAE229DB20100BB66AD /* Info.plist */,
+			);
+			path = "Cardano Tx Guessing Game";
+			sourceTree = "<group>";
+		};
+		E1130BB6229DB20100BB66AD /* Cardano Tx Guessing GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1130BB7229DB20100BB66AD /* Cardano_Tx_Guessing_GameTests.swift */,
+				E1130BB9229DB20100BB66AD /* Info.plist */,
+			);
+			path = "Cardano Tx Guessing GameTests";
+			sourceTree = "<group>";
+		};
+		E1130BC1229DB20100BB66AD /* Cardano Tx Guessing GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1130BC2229DB20100BB66AD /* Cardano_Tx_Guessing_GameUITests.swift */,
+				E1130BC4229DB20100BB66AD /* Info.plist */,
+			);
+			path = "Cardano Tx Guessing GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1130B9E229DB20000BB66AD /* Cardano Tx Guessing Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1130BC7229DB20100BB66AD /* Build configuration list for PBXNativeTarget "Cardano Tx Guessing Game" */;
+			buildPhases = (
+				BF14BDF9B22E2BC5140395B3 /* [CP] Check Pods Manifest.lock */,
+				E1130B9B229DB20000BB66AD /* Sources */,
+				E1130B9C229DB20000BB66AD /* Frameworks */,
+				E1130B9D229DB20000BB66AD /* Resources */,
+				F958A79E86B332CEC2B93711 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cardano Tx Guessing Game";
+			productName = "Cardano Tx Guessing Game";
+			productReference = E1130B9F229DB20000BB66AD /* Cardano Tx Guessing Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1130BB2229DB20100BB66AD /* Cardano Tx Guessing GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1130BCA229DB20100BB66AD /* Build configuration list for PBXNativeTarget "Cardano Tx Guessing GameTests" */;
+			buildPhases = (
+				FE72AEB6D4019CEF86CDB6C6 /* [CP] Check Pods Manifest.lock */,
+				E1130BAF229DB20100BB66AD /* Sources */,
+				E1130BB0229DB20100BB66AD /* Frameworks */,
+				E1130BB1229DB20100BB66AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1130BB5229DB20100BB66AD /* PBXTargetDependency */,
+			);
+			name = "Cardano Tx Guessing GameTests";
+			productName = "Cardano Tx Guessing GameTests";
+			productReference = E1130BB3229DB20100BB66AD /* Cardano Tx Guessing GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1130BBD229DB20100BB66AD /* Cardano Tx Guessing GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1130BCD229DB20100BB66AD /* Build configuration list for PBXNativeTarget "Cardano Tx Guessing GameUITests" */;
+			buildPhases = (
+				326E42AC5D8B233AEDA200A3 /* [CP] Check Pods Manifest.lock */,
+				E1130BBA229DB20100BB66AD /* Sources */,
+				E1130BBB229DB20100BB66AD /* Frameworks */,
+				E1130BBC229DB20100BB66AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1130BC0229DB20100BB66AD /* PBXTargetDependency */,
+			);
+			name = "Cardano Tx Guessing GameUITests";
+			productName = "Cardano Tx Guessing GameUITests";
+			productReference = E1130BBE229DB20100BB66AD /* Cardano Tx Guessing GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1130B97229DB20000BB66AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Robert Kornacki";
+				TargetAttributes = {
+					E1130B9E229DB20000BB66AD = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E1130BB2229DB20100BB66AD = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E1130B9E229DB20000BB66AD;
+					};
+					E1130BBD229DB20100BB66AD = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E1130B9E229DB20000BB66AD;
+					};
+				};
+			};
+			buildConfigurationList = E1130B9A229DB20000BB66AD /* Build configuration list for PBXProject "Cardano Tx Guessing Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1130B96229DB20000BB66AD;
+			productRefGroup = E1130BA0229DB20000BB66AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1130B9E229DB20000BB66AD /* Cardano Tx Guessing Game */,
+				E1130BB2229DB20100BB66AD /* Cardano Tx Guessing GameTests */,
+				E1130BBD229DB20100BB66AD /* Cardano Tx Guessing GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1130B9D229DB20000BB66AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1130BAD229DB20100BB66AD /* LaunchScreen.storyboard in Resources */,
+				E1130BAA229DB20100BB66AD /* Assets.xcassets in Resources */,
+				E1130BA8229DB20000BB66AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1130BB1229DB20100BB66AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1130BBC229DB20100BB66AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		326E42AC5D8B233AEDA200A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cardano Tx Guessing GameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF14BDF9B22E2BC5140395B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cardano Tx Guessing Game-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F958A79E86B332CEC2B93711 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cardano Tx Guessing Game/Pods-Cardano Tx Guessing Game-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cardano Tx Guessing Game/Pods-Cardano Tx Guessing Game-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cardano Tx Guessing Game/Pods-Cardano Tx Guessing Game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE72AEB6D4019CEF86CDB6C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cardano Tx Guessing GameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1130B9B229DB20000BB66AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E144E3C722A041A100C36D19 /* AboutViewController.swift in Sources */,
+				E1130BA5229DB20000BB66AD /* ViewController.swift in Sources */,
+				E1130BA3229DB20000BB66AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1130BAF229DB20100BB66AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1130BB8229DB20100BB66AD /* Cardano_Tx_Guessing_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1130BBA229DB20100BB66AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1130BC3229DB20100BB66AD /* Cardano_Tx_Guessing_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1130BB5229DB20100BB66AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1130B9E229DB20000BB66AD /* Cardano Tx Guessing Game */;
+			targetProxy = E1130BB4229DB20100BB66AD /* PBXContainerItemProxy */;
+		};
+		E1130BC0229DB20100BB66AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1130B9E229DB20000BB66AD /* Cardano Tx Guessing Game */;
+			targetProxy = E1130BBF229DB20100BB66AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1130BA6229DB20000BB66AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1130BA7229DB20000BB66AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1130BAB229DB20100BB66AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1130BAC229DB20100BB66AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1130BC5229DB20100BB66AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1130BC6229DB20100BB66AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1130BC8229DB20100BB66AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB26699BB26984028461C83 /* Pods-Cardano Tx Guessing Game.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GJWF5J9JK;
+				INFOPLIST_FILE = "Cardano Tx Guessing Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robkorn.Cardano-Tx-Guessing-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1130BC9229DB20100BB66AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92021D0E786A94779BC9A541 /* Pods-Cardano Tx Guessing Game.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GJWF5J9JK;
+				INFOPLIST_FILE = "Cardano Tx Guessing Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robkorn.Cardano-Tx-Guessing-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1130BCB229DB20100BB66AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FBDC13450E5CCF9FE9702DE /* Pods-Cardano Tx Guessing GameTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GJWF5J9JK;
+				INFOPLIST_FILE = "Cardano Tx Guessing GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robkorn.Cardano-Tx-Guessing-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardano Tx Guessing Game.app/Cardano Tx Guessing Game";
+			};
+			name = Debug;
+		};
+		E1130BCC229DB20100BB66AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0707A051996B3AB778B0DF40 /* Pods-Cardano Tx Guessing GameTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GJWF5J9JK;
+				INFOPLIST_FILE = "Cardano Tx Guessing GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robkorn.Cardano-Tx-Guessing-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardano Tx Guessing Game.app/Cardano Tx Guessing Game";
+			};
+			name = Release;
+		};
+		E1130BCE229DB20100BB66AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CC8E30AD1EF20778F00F9B /* Pods-Cardano Tx Guessing GameUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GJWF5J9JK;
+				INFOPLIST_FILE = "Cardano Tx Guessing GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robkorn.Cardano-Tx-Guessing-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cardano Tx Guessing Game";
+			};
+			name = Debug;
+		};
+		E1130BCF229DB20100BB66AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37640DFC6966729491A41D70 /* Pods-Cardano Tx Guessing GameUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GJWF5J9JK;
+				INFOPLIST_FILE = "Cardano Tx Guessing GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robkorn.Cardano-Tx-Guessing-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cardano Tx Guessing Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1130B9A229DB20000BB66AD /* Build configuration list for PBXProject "Cardano Tx Guessing Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1130BC5229DB20100BB66AD /* Debug */,
+				E1130BC6229DB20100BB66AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1130BC7229DB20100BB66AD /* Build configuration list for PBXNativeTarget "Cardano Tx Guessing Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1130BC8229DB20100BB66AD /* Debug */,
+				E1130BC9229DB20100BB66AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1130BCA229DB20100BB66AD /* Build configuration list for PBXNativeTarget "Cardano Tx Guessing GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1130BCB229DB20100BB66AD /* Debug */,
+				E1130BCC229DB20100BB66AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1130BCD229DB20100BB66AD /* Build configuration list for PBXNativeTarget "Cardano Tx Guessing GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1130BCE229DB20100BB66AD /* Debug */,
+				E1130BCF229DB20100BB66AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1130B97229DB20000BB66AD /* Project object */;
+}

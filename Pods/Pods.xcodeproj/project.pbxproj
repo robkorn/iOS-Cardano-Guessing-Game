@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1297A0D30013FC0B16F57D3384165CA2 /* Pods-Cardano Tx Guessing Game-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B3E80928F18195BF981D39C4A833 /* Pods-Cardano Tx Guessing Game-dummy.m */; };
+		1804D0E59140D4A94E78680DCF7981A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		2BF13AABBF00D392652883F51EB08532 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9AA0D25BD7BD2C495D776FC8B846DC /* WebSocket.swift */; };
+		5DF1B55FF04B593538DAB67A1A992E78 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7A2315DC555AEF64DA8D50B51DA7F1 /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B024D672476053EF3B183605E8A79A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6B51D7C7D9C815D70E50AF0E0ECB74F4 /* Pods-Cardano Tx Guessing GameUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5A4B99BE88E810DA767D51E09A551 /* Pods-Cardano Tx Guessing GameUITests-dummy.m */; };
+		7137D5DED63A60DC6A2923FA9D35A78D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		788E5A090D9C36BDF3EC124A910A4FE4 /* Pods-Cardano Tx Guessing GameUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDDE435E131A50893F27BB3CF120FA31 /* Pods-Cardano Tx Guessing GameUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F1D694A9B74C884464EFE5483A105A7 /* Pods-Cardano Tx Guessing GameTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 885D047CADC11871A6CE6210DD010CB9 /* Pods-Cardano Tx Guessing GameTests-dummy.m */; };
+		867E118C93671A4E2B99BD2090DBB76B /* Pods-Cardano Tx Guessing GameTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 217566515C85DE2B07A36B349C79CC23 /* Pods-Cardano Tx Guessing GameTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F7DAFB53AB807EA730E229B574E08F0 /* Pods-Cardano Tx Guessing Game-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D22C482EE9EC231AD14656B6221B6724 /* Pods-Cardano Tx Guessing Game-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99531B97ADAB2E75EFFA98A3FBBFFD48 /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F7922C44A3645750BD18CCCF671B0 /* SSLClientCertificate.swift */; };
+		A01184120EAAAFC9DB02F732E0157875 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59F921BA6434A655F9C82F0F81BE47A /* SSLSecurity.swift */; };
+		BCD95B42AF0BF6F9200B9C1C6D5299FF /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E057170ECA65E2F05A5B595252784 /* Compression.swift */; };
+		DBA56649C60C35862C2FED1D687675EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		E80E4D1C933D35B0CE7CCB4458E93168 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB5DEA2CF4E44263A62924A53A069E /* Starscream-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27604FD648DC6A1AA33D911C9F3E4377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0755C89803D061A903E82FA2E0DAD1F;
+			remoteInfo = "Pods-Cardano Tx Guessing Game";
+		};
+		35521D2FE9CAD15AAE140ABE01066062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0755C89803D061A903E82FA2E0DAD1F;
+			remoteInfo = "Pods-Cardano Tx Guessing Game";
+		};
+		B0BA197B39DBC5236169B253474B9A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FB5DEA2CF4E44263A62924A53A069E /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		0397B3E80928F18195BF981D39C4A833 /* Pods-Cardano Tx Guessing Game-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cardano Tx Guessing Game-dummy.m"; sourceTree = "<group>"; };
+		06B648E332160CEC21BB1FD5419A1548 /* Pods-Cardano Tx Guessing GameUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cardano Tx Guessing GameUITests-Info.plist"; sourceTree = "<group>"; };
+		0BF5A4B99BE88E810DA767D51E09A551 /* Pods-Cardano Tx Guessing GameUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cardano Tx Guessing GameUITests-dummy.m"; sourceTree = "<group>"; };
+		217566515C85DE2B07A36B349C79CC23 /* Pods-Cardano Tx Guessing GameTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cardano Tx Guessing GameTests-umbrella.h"; sourceTree = "<group>"; };
+		2A43764C0339AE9A7C3EDF8DAA5BD97B /* Pods-Cardano Tx Guessing GameUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cardano Tx Guessing GameUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2EF130DB1D020533A3D8DDE0CB985BD3 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
+		3007A518AFDB275AE26F52F31D837B39 /* Pods-Cardano Tx Guessing Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cardano Tx Guessing Game.debug.xcconfig"; sourceTree = "<group>"; };
+		35F8CB4ACD191DF6E83FEF0F67EE6549 /* Pods-Cardano Tx Guessing Game-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cardano Tx Guessing Game-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B9AA0D25BD7BD2C495D776FC8B846DC /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
+		3DCEA6169B33E34F1E6E7128F65DC025 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		3F9DF31E18561FB03EFCF664F94A3244 /* Pods-Cardano Tx Guessing Game-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cardano Tx Guessing Game-frameworks.sh"; sourceTree = "<group>"; };
+		414F332A22D82423F29E6AA7F32FC350 /* Pods-Cardano Tx Guessing GameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cardano Tx Guessing GameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		44E219F4030CE498CF0D43505F1973F7 /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
+		56466B21D7275E3121A6641BE17646EB /* Pods-Cardano Tx Guessing GameUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cardano Tx Guessing GameUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56BD524BA49CB259DB362812F1009A6C /* Pods-Cardano Tx Guessing GameTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cardano Tx Guessing GameTests.modulemap"; sourceTree = "<group>"; };
+		5C613D4475E20B4E1E14ADA337FC943E /* Pods-Cardano Tx Guessing Game.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cardano Tx Guessing Game.modulemap"; sourceTree = "<group>"; };
+		633FF8C17DF1C24D2A121A5D0F20F49E /* Pods-Cardano Tx Guessing GameUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cardano Tx Guessing GameUITests.modulemap"; sourceTree = "<group>"; };
+		63E297D7316A3303984D2760275FDAD8 /* Pods-Cardano Tx Guessing GameTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cardano Tx Guessing GameTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		64D5E391E11E3D9A03B0ACF80CFBA3B2 /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
+		6EACCB7BCA1A1A6359AD9F8BABBCF1B0 /* Pods-Cardano Tx Guessing GameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cardano Tx Guessing GameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78FA0FEEC22C4E0CFD46280A9DD11210 /* Pods-Cardano Tx Guessing Game-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cardano Tx Guessing Game-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F7A2315DC555AEF64DA8D50B51DA7F1 /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		885D047CADC11871A6CE6210DD010CB9 /* Pods-Cardano Tx Guessing GameTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cardano Tx Guessing GameTests-dummy.m"; sourceTree = "<group>"; };
+		90F2D9BAD46C2E01C3440456352EF6C9 /* Pods_Cardano_Tx_Guessing_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cardano_Tx_Guessing_Game.framework; path = "Pods-Cardano Tx Guessing Game.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		922FFD261B08F57135EA1D6A4EBDD8AC /* Pods-Cardano Tx Guessing Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cardano Tx Guessing Game.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA2E057170ECA65E2F05A5B595252784 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Starscream/Compression.swift; sourceTree = "<group>"; };
+		C7332DA278445BE3BB65A71080DA6237 /* Pods-Cardano Tx Guessing GameTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cardano Tx Guessing GameTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC117630D5EA569DDCEDB0F798434F57 /* Pods-Cardano Tx Guessing Game-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cardano Tx Guessing Game-Info.plist"; sourceTree = "<group>"; };
+		CDDE435E131A50893F27BB3CF120FA31 /* Pods-Cardano Tx Guessing GameUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cardano Tx Guessing GameUITests-umbrella.h"; sourceTree = "<group>"; };
+		CFDB8D1F2E4EA96917711F3FFBC15CE9 /* Pods_Cardano_Tx_Guessing_GameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cardano_Tx_Guessing_GameUITests.framework; path = "Pods-Cardano Tx Guessing GameUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22C482EE9EC231AD14656B6221B6724 /* Pods-Cardano Tx Guessing Game-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cardano Tx Guessing Game-umbrella.h"; sourceTree = "<group>"; };
+		D59F921BA6434A655F9C82F0F81BE47A /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Sources/Starscream/SSLSecurity.swift; sourceTree = "<group>"; };
+		DCD74892499FBFE6DDD74D2A05116E21 /* Pods_Cardano_Tx_Guessing_GameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cardano_Tx_Guessing_GameTests.framework; path = "Pods-Cardano Tx Guessing GameTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E280F97F4135CD6D9E084C8EF2E837C2 /* Pods-Cardano Tx Guessing GameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cardano Tx Guessing GameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E48F7922C44A3645750BD18CCCF671B0 /* SSLClientCertificate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLClientCertificate.swift; path = Sources/Starscream/SSLClientCertificate.swift; sourceTree = "<group>"; };
+		EBEE91F0CDE7144B790E35BCB157AF55 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1EF081D8B139D3AB7A6E77506A27A5B /* Pods-Cardano Tx Guessing GameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cardano Tx Guessing GameTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDB4554A691E4CD5F415AABB889A6E46 /* Pods-Cardano Tx Guessing GameTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cardano Tx Guessing GameTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A3A56C737ED0374CCB5CEA9178E39A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA56649C60C35862C2FED1D687675EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB9A8BBE8BF0F0E7101FD6456EB11BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B024D672476053EF3B183605E8A79A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE29EDDE51DECE13D00E683291C4C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7137D5DED63A60DC6A2923FA9D35A78D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19734813AB3ED1E7B7A0CF6FBC07DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1804D0E59140D4A94E78680DCF7981A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2067884406A8B4A3DDFAE41A27D96EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90F2D9BAD46C2E01C3440456352EF6C9 /* Pods_Cardano_Tx_Guessing_Game.framework */,
+				DCD74892499FBFE6DDD74D2A05116E21 /* Pods_Cardano_Tx_Guessing_GameTests.framework */,
+				CFDB8D1F2E4EA96917711F3FFBC15CE9 /* Pods_Cardano_Tx_Guessing_GameUITests.framework */,
+				EBEE91F0CDE7144B790E35BCB157AF55 /* Starscream.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74B354FEE42AB825E96690DF7F109CC3 /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				BA2E057170ECA65E2F05A5B595252784 /* Compression.swift */,
+				E48F7922C44A3645750BD18CCCF671B0 /* SSLClientCertificate.swift */,
+				D59F921BA6434A655F9C82F0F81BE47A /* SSLSecurity.swift */,
+				3B9AA0D25BD7BD2C495D776FC8B846DC /* WebSocket.swift */,
+				E1C262BC966EEAEBD1297175B34EF373 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		7A2D52FE0976A92A61946E17CC2072C6 /* Pods-Cardano Tx Guessing Game */ = {
+			isa = PBXGroup;
+			children = (
+				5C613D4475E20B4E1E14ADA337FC943E /* Pods-Cardano Tx Guessing Game.modulemap */,
+				78FA0FEEC22C4E0CFD46280A9DD11210 /* Pods-Cardano Tx Guessing Game-acknowledgements.markdown */,
+				35F8CB4ACD191DF6E83FEF0F67EE6549 /* Pods-Cardano Tx Guessing Game-acknowledgements.plist */,
+				0397B3E80928F18195BF981D39C4A833 /* Pods-Cardano Tx Guessing Game-dummy.m */,
+				3F9DF31E18561FB03EFCF664F94A3244 /* Pods-Cardano Tx Guessing Game-frameworks.sh */,
+				CC117630D5EA569DDCEDB0F798434F57 /* Pods-Cardano Tx Guessing Game-Info.plist */,
+				D22C482EE9EC231AD14656B6221B6724 /* Pods-Cardano Tx Guessing Game-umbrella.h */,
+				3007A518AFDB275AE26F52F31D837B39 /* Pods-Cardano Tx Guessing Game.debug.xcconfig */,
+				922FFD261B08F57135EA1D6A4EBDD8AC /* Pods-Cardano Tx Guessing Game.release.xcconfig */,
+			);
+			name = "Pods-Cardano Tx Guessing Game";
+			path = "Target Support Files/Pods-Cardano Tx Guessing Game";
+			sourceTree = "<group>";
+		};
+		97C5288770E1953BDB40F8F908E40D46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74B354FEE42AB825E96690DF7F109CC3 /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				97C5288770E1953BDB40F8F908E40D46 /* Pods */,
+				2067884406A8B4A3DDFAE41A27D96EAD /* Products */,
+				ED5B0DCD6D40568801350C048014EC1B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB50D1F67DD1FB3ED6B58227AE6A8766 /* Pods-Cardano Tx Guessing GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				633FF8C17DF1C24D2A121A5D0F20F49E /* Pods-Cardano Tx Guessing GameUITests.modulemap */,
+				56466B21D7275E3121A6641BE17646EB /* Pods-Cardano Tx Guessing GameUITests-acknowledgements.markdown */,
+				2A43764C0339AE9A7C3EDF8DAA5BD97B /* Pods-Cardano Tx Guessing GameUITests-acknowledgements.plist */,
+				0BF5A4B99BE88E810DA767D51E09A551 /* Pods-Cardano Tx Guessing GameUITests-dummy.m */,
+				06B648E332160CEC21BB1FD5419A1548 /* Pods-Cardano Tx Guessing GameUITests-Info.plist */,
+				CDDE435E131A50893F27BB3CF120FA31 /* Pods-Cardano Tx Guessing GameUITests-umbrella.h */,
+				414F332A22D82423F29E6AA7F32FC350 /* Pods-Cardano Tx Guessing GameUITests.debug.xcconfig */,
+				6EACCB7BCA1A1A6359AD9F8BABBCF1B0 /* Pods-Cardano Tx Guessing GameUITests.release.xcconfig */,
+			);
+			name = "Pods-Cardano Tx Guessing GameUITests";
+			path = "Target Support Files/Pods-Cardano Tx Guessing GameUITests";
+			sourceTree = "<group>";
+		};
+		E1C262BC966EEAEBD1297175B34EF373 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EF130DB1D020533A3D8DDE0CB985BD3 /* Starscream.modulemap */,
+				64D5E391E11E3D9A03B0ACF80CFBA3B2 /* Starscream.xcconfig */,
+				01FB5DEA2CF4E44263A62924A53A069E /* Starscream-dummy.m */,
+				44E219F4030CE498CF0D43505F1973F7 /* Starscream-Info.plist */,
+				3DCEA6169B33E34F1E6E7128F65DC025 /* Starscream-prefix.pch */,
+				7F7A2315DC555AEF64DA8D50B51DA7F1 /* Starscream-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+		ED5B0DCD6D40568801350C048014EC1B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A2D52FE0976A92A61946E17CC2072C6 /* Pods-Cardano Tx Guessing Game */,
+				F54C1F01D63D382B4F8DE74713DCCD19 /* Pods-Cardano Tx Guessing GameTests */,
+				DB50D1F67DD1FB3ED6B58227AE6A8766 /* Pods-Cardano Tx Guessing GameUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F54C1F01D63D382B4F8DE74713DCCD19 /* Pods-Cardano Tx Guessing GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				56BD524BA49CB259DB362812F1009A6C /* Pods-Cardano Tx Guessing GameTests.modulemap */,
+				C7332DA278445BE3BB65A71080DA6237 /* Pods-Cardano Tx Guessing GameTests-acknowledgements.markdown */,
+				63E297D7316A3303984D2760275FDAD8 /* Pods-Cardano Tx Guessing GameTests-acknowledgements.plist */,
+				885D047CADC11871A6CE6210DD010CB9 /* Pods-Cardano Tx Guessing GameTests-dummy.m */,
+				FDB4554A691E4CD5F415AABB889A6E46 /* Pods-Cardano Tx Guessing GameTests-Info.plist */,
+				217566515C85DE2B07A36B349C79CC23 /* Pods-Cardano Tx Guessing GameTests-umbrella.h */,
+				E280F97F4135CD6D9E084C8EF2E837C2 /* Pods-Cardano Tx Guessing GameTests.debug.xcconfig */,
+				F1EF081D8B139D3AB7A6E77506A27A5B /* Pods-Cardano Tx Guessing GameTests.release.xcconfig */,
+			);
+			name = "Pods-Cardano Tx Guessing GameTests";
+			path = "Target Support Files/Pods-Cardano Tx Guessing GameTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B3E222D869ADD71202F5522DBE46A7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788E5A090D9C36BDF3EC124A910A4FE4 /* Pods-Cardano Tx Guessing GameUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403B40BF06AFF343407EED9B0061A969 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7DAFB53AB807EA730E229B574E08F0 /* Pods-Cardano Tx Guessing Game-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754A32C7E4D922F8B4AB30FD866AB29A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF1B55FF04B593538DAB67A1A992E78 /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03B093A27A92028A8B256231F78B62E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867E118C93671A4E2B99BD2090DBB76B /* Pods-Cardano Tx Guessing GameTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3DC11996D2987D879B795DC8BC395F50 /* Pods-Cardano Tx Guessing GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97A0B126CEF61E468F9E3CC510197C0F /* Build configuration list for PBXNativeTarget "Pods-Cardano Tx Guessing GameTests" */;
+			buildPhases = (
+				D03B093A27A92028A8B256231F78B62E /* Headers */,
+				E4F51226742BC7D8B7880F0257840AD0 /* Sources */,
+				2A3A56C737ED0374CCB5CEA9178E39A2 /* Frameworks */,
+				CDEB005A6A317CF46D798606CE1AE5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D84CBF88F493E4C2CCFCD013F0AF794 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cardano Tx Guessing GameTests";
+			productName = "Pods-Cardano Tx Guessing GameTests";
+			productReference = DCD74892499FBFE6DDD74D2A05116E21 /* Pods_Cardano_Tx_Guessing_GameTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4AA388593FBD8AF9E81F9E1F4C4FB2F8 /* Pods-Cardano Tx Guessing GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0176C6D491B25529506E615AB23DF77C /* Build configuration list for PBXNativeTarget "Pods-Cardano Tx Guessing GameUITests" */;
+			buildPhases = (
+				1B3E222D869ADD71202F5522DBE46A7A /* Headers */,
+				EF979C690A098CDF63CDE43815F49FB2 /* Sources */,
+				E19734813AB3ED1E7B7A0CF6FBC07DC2 /* Frameworks */,
+				BA74CEA5C00571F7269487CE40CB86C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C489A6EC317AC6344332DDDC9E5CCC6E /* PBXTargetDependency */,
+			);
+			name = "Pods-Cardano Tx Guessing GameUITests";
+			productName = "Pods-Cardano Tx Guessing GameUITests";
+			productReference = CFDB8D1F2E4EA96917711F3FFBC15CE9 /* Pods_Cardano_Tx_Guessing_GameUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51EF83ED6B1D73BF662853229D5C1273 /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				754A32C7E4D922F8B4AB30FD866AB29A /* Headers */,
+				7D84878E712AF48C65138C5A8DD1D426 /* Sources */,
+				6BB9A8BBE8BF0F0E7101FD6456EB11BC /* Frameworks */,
+				568ECC4084CE467F02D5B9D3A29F3078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = EBEE91F0CDE7144B790E35BCB157AF55 /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0755C89803D061A903E82FA2E0DAD1F /* Pods-Cardano Tx Guessing Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B273429EA971BEBB775C3A6CB0364A0 /* Build configuration list for PBXNativeTarget "Pods-Cardano Tx Guessing Game" */;
+			buildPhases = (
+				403B40BF06AFF343407EED9B0061A969 /* Headers */,
+				C8E43CC8C16EC09B086F6C8D520171B2 /* Sources */,
+				9EE29EDDE51DECE13D00E683291C4C42 /* Frameworks */,
+				ECEB58F6CDED77712723823940E26E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85B8D5931F546244C8314FC3E1E9A9DC /* PBXTargetDependency */,
+			);
+			name = "Pods-Cardano Tx Guessing Game";
+			productName = "Pods-Cardano Tx Guessing Game";
+			productReference = 90F2D9BAD46C2E01C3440456352EF6C9 /* Pods_Cardano_Tx_Guessing_Game.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2067884406A8B4A3DDFAE41A27D96EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0755C89803D061A903E82FA2E0DAD1F /* Pods-Cardano Tx Guessing Game */,
+				3DC11996D2987D879B795DC8BC395F50 /* Pods-Cardano Tx Guessing GameTests */,
+				4AA388593FBD8AF9E81F9E1F4C4FB2F8 /* Pods-Cardano Tx Guessing GameUITests */,
+				9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		568ECC4084CE467F02D5B9D3A29F3078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA74CEA5C00571F7269487CE40CB86C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEB005A6A317CF46D798606CE1AE5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEB58F6CDED77712723823940E26E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D84878E712AF48C65138C5A8DD1D426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD95B42AF0BF6F9200B9C1C6D5299FF /* Compression.swift in Sources */,
+				99531B97ADAB2E75EFFA98A3FBBFFD48 /* SSLClientCertificate.swift in Sources */,
+				A01184120EAAAFC9DB02F732E0157875 /* SSLSecurity.swift in Sources */,
+				E80E4D1C933D35B0CE7CCB4458E93168 /* Starscream-dummy.m in Sources */,
+				2BF13AABBF00D392652883F51EB08532 /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E43CC8C16EC09B086F6C8D520171B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1297A0D30013FC0B16F57D3384165CA2 /* Pods-Cardano Tx Guessing Game-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F51226742BC7D8B7880F0257840AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1D694A9B74C884464EFE5483A105A7 /* Pods-Cardano Tx Guessing GameTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF979C690A098CDF63CDE43815F49FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B51D7C7D9C815D70E50AF0E0ECB74F4 /* Pods-Cardano Tx Guessing GameUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D84CBF88F493E4C2CCFCD013F0AF794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Cardano Tx Guessing Game";
+			target = E0755C89803D061A903E82FA2E0DAD1F /* Pods-Cardano Tx Guessing Game */;
+			targetProxy = 27604FD648DC6A1AA33D911C9F3E4377 /* PBXContainerItemProxy */;
+		};
+		85B8D5931F546244C8314FC3E1E9A9DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = B0BA197B39DBC5236169B253474B9A17 /* PBXContainerItemProxy */;
+		};
+		C489A6EC317AC6344332DDDC9E5CCC6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Cardano Tx Guessing Game";
+			target = E0755C89803D061A903E82FA2E0DAD1F /* Pods-Cardano Tx Guessing Game */;
+			targetProxy = 35521D2FE9CAD15AAE140ABE01066062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05A0105FEC743A7B5AA8A44EEDB2B93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D5E391E11E3D9A03B0ACF80CFBA3B2 /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1CB02B5676A389F6486B7E96F0153821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E280F97F4135CD6D9E084C8EF2E837C2 /* Pods-Cardano Tx Guessing GameTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cardano Tx Guessing GameTests/Pods-Cardano Tx Guessing GameTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cardano Tx Guessing GameTests/Pods-Cardano Tx Guessing GameTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		270FBB7EBDEC96F9505FAD80D16E77E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922FFD261B08F57135EA1D6A4EBDD8AC /* Pods-Cardano Tx Guessing Game.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cardano Tx Guessing Game/Pods-Cardano Tx Guessing Game-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cardano Tx Guessing Game/Pods-Cardano Tx Guessing Game.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4ACDC048339A78015ADE18A6B1752555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EACCB7BCA1A1A6359AD9F8BABBCF1B0 /* Pods-Cardano Tx Guessing GameUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cardano Tx Guessing GameUITests/Pods-Cardano Tx Guessing GameUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cardano Tx Guessing GameUITests/Pods-Cardano Tx Guessing GameUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		664BF606BE7CA37FFB63FBB09761EEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414F332A22D82423F29E6AA7F32FC350 /* Pods-Cardano Tx Guessing GameUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cardano Tx Guessing GameUITests/Pods-Cardano Tx Guessing GameUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cardano Tx Guessing GameUITests/Pods-Cardano Tx Guessing GameUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A11C81D3281C8AAA621239F74140DD7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D5E391E11E3D9A03B0ACF80CFBA3B2 /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4FECF349BA91E0A4D882729C206AA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3007A518AFDB275AE26F52F31D837B39 /* Pods-Cardano Tx Guessing Game.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cardano Tx Guessing Game/Pods-Cardano Tx Guessing Game-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cardano Tx Guessing Game/Pods-Cardano Tx Guessing Game.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E7795CEA7E2EE71762258F7E2D08DBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EF081D8B139D3AB7A6E77506A27A5B /* Pods-Cardano Tx Guessing GameTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cardano Tx Guessing GameTests/Pods-Cardano Tx Guessing GameTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cardano Tx Guessing GameTests/Pods-Cardano Tx Guessing GameTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0176C6D491B25529506E615AB23DF77C /* Build configuration list for PBXNativeTarget "Pods-Cardano Tx Guessing GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664BF606BE7CA37FFB63FBB09761EEE0 /* Debug */,
+				4ACDC048339A78015ADE18A6B1752555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B273429EA971BEBB775C3A6CB0364A0 /* Build configuration list for PBXNativeTarget "Pods-Cardano Tx Guessing Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FECF349BA91E0A4D882729C206AA04 /* Debug */,
+				270FBB7EBDEC96F9505FAD80D16E77E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51EF83ED6B1D73BF662853229D5C1273 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11C81D3281C8AAA621239F74140DD7E /* Debug */,
+				05A0105FEC743A7B5AA8A44EEDB2B93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97A0B126CEF61E468F9E3CC510197C0F /* Build configuration list for PBXNativeTarget "Pods-Cardano Tx Guessing GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB02B5676A389F6486B7E96F0153821 /* Debug */,
+				E7795CEA7E2EE71762258F7E2D08DBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
